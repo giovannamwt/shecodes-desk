@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Manrope:wght@200..800&display=swap');
+body {
+    font-family: "Manrope", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/images/Group\ 10142.png');
+    background-size: cover;
+    background-color: #000;
+    color: white;
+
+}
+p{
+    font-size: 16px;
+}
+h1{
+    font-size: 64px;
+    font-weight: 800;
+}
+h2{
+    font-size: 48px;
+    font-weight: 800;
+    margin: 20px;
+}
+section{
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+}
+
+button{
+    background-color: #FF00E5;
+    border-radius: 50px;
+    padding: 20px 80px;
+    border-style: none;
+    color: white;
+    font-weight:600;
+    margin: 70px 
+}
+button:hover{
+    background-color: white;
+    color: #FF00E5;
+}
+
+
+
+header{
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+#missao{
+    justify-content: center;
+    
+}
+
+#missao img{
+    width: 45%;
+    height: 45%;
+    margin: 15px 50px 0 0;
+}
+
+#objetivos{
+    flex-direction: column;
+    text-align: center;
+}
+
+#objetivos ul{
+    display: flex;
+    list-style: none;
+}
+
+#objetivos li{
+    text-align: center;
+    padding: 60px 20px;
+    background-color: rgba(26, 0, 14, 0.5);
+    border-radius: 30px;
+    margin: 0 10px;
+}
+
+#missao h2{
+    text-align: start;
+    margin: 0 auto 20px;
+}
+
+#cta p{
+    max-width: 600px;
+    margin-bottom: 0;
+}
+#objetivos p{
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+#capacite, #jogos, #destaques, #cta{
+    flex-direction: column;
+    align-items: center;
+}
+
+div{
+    align-items: center;
+}
+#capacite div{
+    margin-right: 20px;
+}
+#podio{
+    margin: 0 50px 50px 0;
+    width: 40%;
+}
+
+#cta{
+    text-align: center;
+}
+
+#destaques{
+    border: 2px solid #8000FF;
+    border-radius: 54px;
+    padding: 58px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    padding: 0px 20px;
+}
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+.navbar a:hover {
+    color: #FF00E5;
+}
+
+.navbar .menu {
+    display: flex;
+    gap: 0px;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #000;
+}
+header {
+    text-align: center;
+    padding: 50px 0;
+}
+header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+section {
+    margin: auto;
+}
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.cta {
+    text-align: center;
+    margin: 50px 0;
+}
+.cta a {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.cta a:hover {
+    color: #FF00E5;} */
